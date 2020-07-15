@@ -1,0 +1,17 @@
+<PAMDataset>
+  <Metadata>
+    <MDI key="TIFFTAG_SOFTWARE">TIFF file written using Surfer ioTiff by Golden Software LLC.</MDI>
+    <MDI key="TIFFTAG_XRESOLUTION">96</MDI>
+    <MDI key="TIFFTAG_YRESOLUTION">96</MDI>
+    <MDI key="TIFFTAG_RESOLUTIONUNIT">2 (pixels/inch)</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <ColorInterp>Red</ColorInterp>
+  </PAMRasterBand>
+  <PAMRasterBand band="2">
+    <ColorInterp>Green</ColorInterp>
+  </PAMRasterBand>
+  <PAMRasterBand band="3">
+    <ColorInterp>Blue</ColorInterp>
+  </PAMRasterBand>
+</PAMDataset>

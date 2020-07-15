@@ -1,0 +1,42 @@
+[Ilwis]
+Description=MapDrainageNetworkExtraction(FlowAcc.mpr,4)
+Time=1554470062
+Version=3.1
+Class=Dependent Raster Map
+Type=BaseMap
+[BaseMap]
+CoordSystem=unknown.csy
+CoordBounds=0.405091 0.258974 8.186385 10.620953
+Domain=bool.dom
+DomainInfo=bool.dom;Byte;bool;0;;
+Range=0:1:offset=-1
+Type=Map
+Proximity=0.038906
+[Map]
+GeoRef=ele.grf
+Size=995 748
+Type=MapVirtual
+[IlwisObjectVirtual]
+Expression=MapDrainageNetworkExtraction(FlowAcc.mpr,4)
+DefOnlyPossible=No
+[ObjectDependency]
+NrDepObjects=1
+Object0=FlowAcc.mpr
+[MapVirtual]
+Expression=MapDrainageNetworkExtraction(FlowAcc.mpr,4)
+Type=MapFromMap
+[MapFromMap]
+Map=FlowAcc.mpr
+Type=MapDrainageNetworkExtraction
+[MapDrainageNetworkExtraction]
+Threshold=4
+[MapStore]
+StoreTime=1554470062
+Data=Drainage.mp#
+Structure=Line
+StartOffset=0
+RowLength=748
+PixelInterLeaved=No
+SwapBytes=No
+Type=Byte
+UseAs=No
